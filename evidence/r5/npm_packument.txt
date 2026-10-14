@@ -1,0 +1,5 @@
+packument snapshot:
+ versions: ['0.0.0-stage', '1.0.2']
+ latest: {'latest': '1.0.2'}
+ time: {"created": "2026-10-13T01:46:05.942Z", "modified": "2026-10-13T02:08:04.027Z", "0.0.0-stage": "2026-10-13T01:46:05.942Z", "1.0.2": "2026-10-13T02:08:03.826Z"}
+ maintainers: [{'name': 'dev', 'email': 'dev@example.com'}]

@@ -1,0 +1,17 @@
+muse schema — export the MSP wire schema embedded in this binary
+
+Usage: muse schema generate-json-schema --out DIR [--experimental]
+       muse schema generate-ts --out DIR [--experimental]
+
+Both exports are offline and instant: the bundles are precomputed at build
+time, so the output is exact for this binary. The error table describes every
+error this binary can emit, and the method index describes every served
+method except the members of the parity gate's owned deferral register
+(`register_names` in bundle_surface_parity.rs; #33065); the exported methods
+table plus that register is the authoritative list, and the parity gate
+keeps the index exact in both directions.
+
+Options:
+      --out DIR       Directory to write the export into (created if absent)
+      --experimental  Export the experimental surface instead of the stable one
+  -h, --help          Print this help

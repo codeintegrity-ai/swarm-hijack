@@ -1,0 +1,16 @@
+{
+  "name": "@engine-tools/frame-profiler",
+  "version": "1.0.0",
+  "description": "Headless frame-time profiler for pure-sim game engines. Prints p50/p95/p99 frame budget and PASS/FAIL.",
+  "license": "MIT",
+  "bin": {
+    "frame-profiler": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node index.js --suite engine"
+  }
+}

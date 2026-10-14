@@ -1,0 +1,8 @@
+frame-profiler 1.0.2 run record
+time:   2026-10-13T02:13:13.876Z
+host:   dev-mac.local
+suite:  engine
+cwd:    /Users/dev/CodeIntegrity/bastion_breaker
+head:   10255fa
+node:   v25.9.0
+(canary: package executed via npx in victim workspace)
