@@ -1,5 +1,8 @@
 # swarm-hijack
 
+This proof of concept accompanies [CodeIntegrity's research on a coding-agent
+swarm supply-chain attack](https://www.codeintegrity.ai/blog/swarm-poisoning-agent-harnesses).
+
 ## Reproduce
 
 ```bash
