@@ -1,7 +1,9 @@
-# swarm-hijack
+# Swarm Hijack
 
-This proof of concept accompanies [CodeIntegrity's research on a coding-agent
-swarm supply-chain attack](https://www.codeintegrity.ai/blog/swarm-poisoning-agent-harnesses).
+[CodeIntegrity's research on swarm poisoning in agent harnesses](https://www.codeintegrity.ai/blog/swarm-poisoning-agent-harnesses)
+documents this proof of concept. It demonstrates a forged Muse Code subagent
+result that leads to a package download in a controlled local setup with a fake
+registry. The article explains the attack path, observed result, and scope.
 
 ## Reproduce
 
